@@ -21,7 +21,7 @@ class HelloController extends AbstractFOSRestController
     {
         return new JsonResponse([
             'hello' => 'This is the test of stefan izdrail',
-            'docs_path' => '/api/doc'
+            'docs_path' => '/doc'
         ]);
     }
 }
