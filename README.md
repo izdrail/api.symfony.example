@@ -36,12 +36,6 @@ php bin/console doctrine:fixtures:load
 ```
 
 
-## Running fixture
-```
-php bin/console doctrine:fixtures:load
-```
-
-
 ## Getting with Curl
 
 ```
@@ -52,7 +46,7 @@ php bin/console doctrine:fixtures:load
     $ curl -H 'content-type: application/json' -v -X DELETE http://127.0.0.1:8000/api/expenses/remove/:id
 ```
 
-##Credentials
+## Credentials
 
 ```
 For testing use admin:admin
