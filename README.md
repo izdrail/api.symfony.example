@@ -2,6 +2,12 @@
 
 Simple example of an API REST with Symfony 5.2
 
+## Requirements
+```
+PHP7.4 + MYSQL
+```
+
+
 ## Install with Composer
 
 ```
