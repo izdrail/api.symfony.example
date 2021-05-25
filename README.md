@@ -35,6 +35,13 @@ php bin/console doctrine:migrations:migrate
 php bin/console doctrine:fixtures:load
 ```
 
+## View Documentation
+
+```
+visit https://localhost/doc for the documentation endpoint
+```
+
+
 
 ## Getting with Curl
 
