@@ -116,7 +116,7 @@ class ExpensesController extends AbstractFOSRestController
             return $expense;
         }
 
-        throw new JsonException("Invalid id" ,403);
+        throw new JsonException("Invalid id" ,500);
     }
 
     /**
@@ -151,7 +151,7 @@ class ExpensesController extends AbstractFOSRestController
             return $expense;
         }
 
-        throw new JsonException("Invalid id" ,404);
+        throw new JsonException("Invalid id" ,500);
     }
 
     /**
