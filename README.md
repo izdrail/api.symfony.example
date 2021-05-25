@@ -47,8 +47,8 @@ php bin/console doctrine:fixtures:load
 ```
     $ curl -H 'content-type: application/json' -v -X GET http://127.0.0.1:8000/api/expenses
     $ curl -H 'content-type: application/json' -v -X GET http://127.0.0.1:8000/api/expenses/:id
-    $ curl -H 'content-type: application/json' -v -X POST -d '{"description":"Foo bar","value":"19.99"}' http://127.0.0.1:8000/api/expenses/new
-    $ curl -H 'content-type: application/json' -v -X PUT -d '{"description":"Foo bar","value":"19.99"}' http://127.0.0.1:8000/api/expenses/edit/:id
+    $ curl -H 'content-type: application/json' -v -X POST -d '{"description":"Foo bar","value":"19.99"}' http://127.0.0.1:8000/api/expenses
+    $ curl -H 'content-type: application/json' -v -X PUT -d '{"description":"Foo bar","value":"19.99"}' http://127.0.0.1:8000/api/expenses/:id
     $ curl -H 'content-type: application/json' -v -X DELETE http://127.0.0.1:8000/api/expenses/remove/:id
 ```
 
