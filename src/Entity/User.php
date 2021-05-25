@@ -23,32 +23,32 @@ class User implements UserInterface
     /**
      * @ORM\Column(type="string")
      */
-    private $name;
+    private string $name;
 
     /**
      * @ORM\Column(type="string")
      */
-    private $surname;
+    private string $surname;
 
     /**
      * @ORM\Column(type="string")
      */
-    private $username;
+    private string $username;
 
     /**
      * @ORM\Column(type="string")
      */
-    private $email;
+    private string $email;
 
     /**
      * @ORM\Column(type="string")
      */
-    private $password;
+    private string $password;
 
     /**
      * @ORM\Column(type="json")
      */
-    private $roles = [];
+    private array $roles = [];
 
 	public function getId(): int
 	{
@@ -126,8 +126,4 @@ class User implements UserInterface
 		return null;
 	}
 
-	public function eraseCredentials(): void
-	{
-
-	}
 }
